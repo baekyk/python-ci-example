@@ -19,8 +19,7 @@ jobs:
         uses : github/super-linter@v4
         env:
           DEFAULT_BRANCH: master
-          GITHUB_TOKEN : ${{ secrets,GITHUB_TOKEN }}
+          GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }}
           VALDATE_PYTHON_BALCK : true
           VALDATE_PYTHON_FLAKE8: true
 
-          
